@@ -13,7 +13,7 @@ FFPP_FFPunTellAdmin = true;
 // Add to named AI
 //[VarName,true] call FFPP_fnc_punishment_FF_addEH;
 
-if (hasinterface) then { // hasInterface checks whether the machine is a player or server. If hasinterface is true, it is a player.
+/*if (hasinterface) then { // hasInterface checks whether the machine is a player or server. If hasinterface is true, it is a player.
     1 faderadio 0; //Turn off annoying AI radio callouts volume
 
         titleCut ["", "BLACK FADED", 999]; //make screen black
