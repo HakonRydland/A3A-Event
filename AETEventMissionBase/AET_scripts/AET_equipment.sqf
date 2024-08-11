@@ -33,6 +33,8 @@ private _uniformItems = [
 	["ACE_SpraypaintBlue", 1], // Spray Paint (Blue)
 	["ACE_SpraypaintGreen", 1], // Spray Paint (Green)	
 	["ACE_SpraypaintRed", 1], // Spray Paint (Red)
+	["ACE_SpraypaintWhite", 1], // Spray Paint (White)
+	["ACE_SpraypaintYellow", 1], // Spray Paint (Yellow)
 	["ACE_EntrenchingTool", 0], // Entrenching Tool
 	// Medical
 	["ACE_fieldDressing", 0], // Bandage (Basic)

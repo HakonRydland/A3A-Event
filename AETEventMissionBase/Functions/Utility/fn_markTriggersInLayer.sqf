@@ -45,9 +45,9 @@ private _counter = 1;
 	_triggerPointMarkerName setMarkerTypeLocal "mil_dot";
 
 	if (_triggerText != "") then {
-		_triggerPointMarkerName setMarkerText _triggerText;
+		_triggerPointMarkerName setMarkerTextLocal _triggerText;
 	} else {
-		_triggerPointMarkerName setMarkerText ("Trigger_" + str(_counter) + "_InLayer");
+		_triggerPointMarkerName setMarkerTextLocal ("Trigger_" + str(_counter) + "_InLayer");
 	};
 
 	_counter = _counter + 1;
