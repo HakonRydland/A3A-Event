@@ -39,5 +39,3 @@ _x is the element of an array.
         _x allowDamage true;
     } forEach _array;
 */
-
-["Initialize", [true]] call BIS_fnc_dynamicGroups;
