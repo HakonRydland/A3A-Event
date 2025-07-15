@@ -882,7 +882,7 @@ force AET_common_SET_compareAddonOptions_mode = "ADMIN";
 force AET_common_SET_dynamicGroups = true;
 
 // AET Disclaimer
-force AET_disclaimer_SET_customIntro_path = "";
+force AET_disclaimer_SET_customIntro_path = "AET_Scripts\AET_customIntro.sqf";
 force AET_disclaimer_SET_disable_for_admin = true;
 force AET_disclaimer_SET_disable_in_editor = true;
 force AET_disclaimer_SET_disableSafetydistance = 250;
