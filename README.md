@@ -29,6 +29,9 @@ This file handles the in-game briefing entries, you are expected to:
 ### AET_settings.sqf
 This file contains the CBA settings that mission makers are allowed to change and modify without needing permission from an Event Team Lead.
 
+### AET_customIntro.sqf
+This file is the default file used by AET Auxiliaries for custom intros after the disclaimer. It contains a commented out example of how to implement such a custom intro. 
+
 ## Init files
 ### init.sqf
 This file is executed locally on every machine including at the start of the mission or when a player joins in progress.
