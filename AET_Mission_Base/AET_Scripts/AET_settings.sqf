@@ -20,7 +20,10 @@ force acex_headless_enabled = false;
 // ACE Logistics -> Rearm Amount = 0, 1, or 2 [0 = Entire Vehicle, 1 = Entire Magazine, 2 = Amount based on caliber] //
 force ace_rearm_level = 1;
 
-// ACE Medical Treatment -> Self Stitching = 0 or 1 [0 = No, 1 = Yes] //
+// ACE Medical Treatment -> Self PAK Usage = 0, 1, or 2 [0 = No, 1 = Yes, 2 = Doctor] //
+force ace_medical_treatment_allowSelfPAK = 0;
+
+// ACE Medical Treatment -> Self Stitching = 0, 1, or 2 [0 = No, 1 = Yes, 2 = Doctor] //
 force ace_medical_treatment_allowSelfStitch = 0;
 
 // ACE Overheating -> Suppressor Coefficient = 0.00 to 5.00 //
