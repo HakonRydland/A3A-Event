@@ -498,7 +498,7 @@ ace_maptools_rotateModifierKey = 1;
 force force ace_medical_ai_enabledFor = 0;
 force force ace_medical_ai_requireItems = 0;
 force ace_medical_AIDamageThreshold = 0.1;
-force ace_medical_alternateArmorPenetration = true;
+force force ace_medical_alternateArmorPenetration = false;
 force ace_medical_bleedingCoefficient = 0.2;
 force force ace_medical_blood_bloodLifetime = 300;
 force ace_medical_blood_enabledFor = 2;
@@ -885,7 +885,7 @@ force AET_common_SET_compareAddonOptions_mode = "ADMIN";
 force AET_common_SET_dynamicGroups = true;
 
 // AET Disclaimer
-force AET_disclaimer_SET_customIntro_path = "AET_Scripts\AET_customIntro.sqf";
+force AET_disclaimer_SET_customIntro_path = "";
 force AET_disclaimer_SET_disable_for_admin = true;
 force AET_disclaimer_SET_disable_in_editor = true;
 force AET_disclaimer_SET_disableSafetydistance = 250;
@@ -1154,6 +1154,12 @@ emr_main_preventHighVaulting = false;
 force emr_main_staminaCoefficient = 1;
 force emr_main_whitelistStr = "";
 force emr_main_yeetCoefficient = 1.4;
+
+// Friendly Fire Phantom Protocol
+force force FFPP_main_SET_enabled = true;
+force force FFPP_main_SET_tellAdmin = true;
+force force FFPP_main_SET_tellInstigator = false;
+force force FFPP_main_SET_tellVictim = false;
 
 // GRAD Trenches
 force grad_trenches_functions_allowBigEnvelope = true;
