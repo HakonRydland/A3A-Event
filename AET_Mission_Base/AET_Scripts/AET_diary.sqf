@@ -4,10 +4,8 @@
 
 _player createDiaryRecord ["Diary", ["Credits","
 Thanks and credits goes to: <br/><br/>
-Frost'sBite from the Antistasi Dev Team for the friendly fire script https://github.com/official-antistasi-community/A3-FF-Punishment-Phantom<br/><br/>
 Hakon from the Antistasi Dev Team for all the functions/scripts and help he provided the event team with.<br/><br/>
 SkippieDippie from the Antistasi Event Team and 24th CHORNI VORON for all the functions/script and help he provided the event team with.<br/><br/>
-Dmitry Yuri for the antiFlubber script.<br> <br/>
 All the creator's of the mods that were used in this mission.<br/><br/>
 Anyone who have contributed to the creation of this mission.<br/><br/>
 "]]; 
@@ -16,7 +14,7 @@ Anyone who have contributed to the creation of this mission.<br/><br/>
 
 _player createDiaryRecord ["Diary", ["Signals","
 	Main Communication Net: LR 77.0<br/><br/>
-	Alpha Intercoms: SR 70.0<br/><br/>
+	Platoon Intercoms: SR 70.0<br/><br/>
 	Etc...<br/><br/>"
 ]];
 
